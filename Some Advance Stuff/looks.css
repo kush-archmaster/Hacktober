@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 40px;
+}
+
+h1 {
+  position: relative;
+  top: 10px;
+}
+
+center {
+  width: 100%;
+  height: 130px;
+
+  background: linear-gradient(rgba(129, 92, 92, 0.5), rgba(0, 0, 0, 0.7)),
+    lightskyblue;
+  clip-path: polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
+}
+
+.some-cool-font {
+  /*src:url(SpaceMono-Regular-d0855b0c557b78ea0449761b25ccca018880f483e56ff9a69e7cbde1dc12fa3a.ttf);*/
+  font-family: "Space Mono", monospace;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-size: 70%;
+}
+
+body {
+  background-color: #152347;
+  color: black;
+}
+
+.yellow-highlight {
+  color: yellow;
+  font-size: 100%;
+  position: relative;
+  top: 10px;
+}
